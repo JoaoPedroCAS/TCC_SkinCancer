@@ -38,7 +38,7 @@ Researchers and developers can utilize this dataset for tasks such as:
 
 ## Data Source
 
-The dataset is publicly available and can be accessed from [here]((https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?rvi=1)).
+The dataset is publicly available and can be accessed from [here](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?rvi=1).
 
 ## Acknowledgments
 
