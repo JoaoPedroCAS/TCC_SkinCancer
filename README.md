@@ -13,6 +13,39 @@ Conclude the journey with a CNN prediction using the VGG architecture.
 ## Project Objective 
 Our primary goal is to conduct a thorough comparative analysis between the outcomes of feature extraction coupled with CNN prediction and the stand-alone CNN prediction methodology.
 
+# HAM10000 Dataset
+
+## Overview
+
+The HAM10000 dataset is a collection of dermatoscopic images consisting of 10015 skin lesions. It is widely used for research and development in the field of dermatology and machine learning for skin cancer diagnosis.
+
+## Dataset Contents
+
+- **Images:** The dataset includes high-quality dermoscopic images of pigmented skin lesions.
+- **Labels:** Each image is labeled with information about the diagnosis, including various types of skin lesions such as melanoma, nevus, and seborrheic keratosis.
+
+## Usage
+
+Researchers and developers can utilize this dataset for tasks such as:
+
+- Training and evaluating machine learning models for skin cancer classification.
+- Studying the characteristics of different skin lesions.
+- Advancing research in dermatology and medical imaging.
+
+## Citation
+
+> P. Tschandl, "The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions," Harvard Dataverse, 2018, Volume 4. [Link to the arcticle](https://arxiv.org/abs/1803.10417v3)
+
+## Data Source
+
+The dataset is publicly available and can be accessed from [here]((https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?rvi=1)).
+
+## Acknowledgments
+
+We would like to express gratitude to the creators of the HAM10000 dataset for their valuable contribution to the field of dermatology and medical imaging.
+
+
+
 # Scripts
 ## Image Feature Extraction Script
 
