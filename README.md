@@ -59,7 +59,7 @@ This script is designed for extracting features from images using pre-trained co
 
 5. Extract features using different CNN models (VGG19, Xception, InceptionV3) and save them in LibSVM format.
 
-##Cross Validation And Prediction Script
+## Cross Validation And Prediction Script
 
 ### Overview
 
@@ -108,7 +108,7 @@ The script prints the accuracy, precision and F1-Score of each classifier for ea
 
 Make sure to adjust the `max_iter` parameter for classifiers like LinearSVM and Logistic Regression based on your dataset size and complexity.
 
-##CNN Prediction Script
+## CNN Prediction Script
 
 This repository contains code for a skin cancer classification model using the VGG16 architecture. The model is implemented using TensorFlow and Keras. The dataset used for training and testing is provided in the 'data' folder.
 
