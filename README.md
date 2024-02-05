@@ -7,10 +7,10 @@ The first script illuminates the capabilities of three Convolutional Neural Netw
 ## Classifier Cross Validation Suite 
 Proceed to the Cross Validation and Prediction script, where five robust classifiers: Linear Discrimination, Perceptron, LinearSVC, KNN, and Logistic Regression, engage in a systematic evaluation for classification excellence.
 
-## CNN Prediction Efficacy Analysis 📊
+## CNN Prediction Efficacy Analysis 
 Conclude the journey with a CNN prediction using the VGG architecture.
 
-## Project Objective 🎓
+## Project Objective 
 Our primary goal is to conduct a thorough comparative analysis between the outcomes of feature extraction coupled with CNN prediction and the stand-alone CNN prediction methodology.
 
 # Scripts
