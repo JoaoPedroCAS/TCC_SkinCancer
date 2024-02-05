@@ -10,6 +10,8 @@ from sklearn.linear_model import Perceptron
 from sklearn.svm import LinearSVC
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score
 from sklearn.datasets import load_svmlight_files
 import pylab as pl
 
@@ -57,7 +59,17 @@ def main(data):
         print ('Accuracy Knn: ',  accuracy_score(y_test, knn_pred))
         print ('Accuracy LR: ',  accuracy_score(y_test, lr_pred))
 
-        
+        print ('Accuracy LDA: ',  f1_score(y_test, lda_pred))
+        print ('Accuracy Perceptron: ',  f1_score(y_test, perceptron_pred))
+        print ('Accuracy Linear SVM: ',  f1_score(y_test, linearSVM_pred))
+        print ('Accuracy Knn: ',  f1_score(y_test, knn_pred))
+        print ('Accuracy LR: ',  f1_score(y_test, lr_pred))
+
+        print ('Accuracy LDA: ',  precision_score(y_test, lda_pred))
+        print ('Accuracy Perceptron: ',  precision_score(y_test, perceptron_pred))
+        print ('Accuracy Linear SVM: ',  precision_score(y_test, linearSVM_pred))
+        print ('Accuracy Knn: ',  precision_score(y_test, knn_pred))
+        print ('Accuracy LR: ',  precision_score(y_test, lr_pred))
 
 if __name__ == "__main__":
 
