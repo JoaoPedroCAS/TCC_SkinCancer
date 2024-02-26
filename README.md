@@ -8,8 +8,7 @@ A segunda metodologia irá utilizar as mesmas *CNN's* como extratores de atribut
 
 Estas duas formas diferentes de classificação são avaliadas com a finalidade de encontrar quais são os pontos fortes e fracos de cada uma dessas abordagens e qual destas gera o melhor resultado. 
 
-Futuramente, uma terceira estratégia irá ser implementada, onde mais uma vez as CNN’s irão ser utilizadas apenas como extratoras de atributos, que servirão como entrada para algoritmos de seleção dinâmica, como o Seleção dinâmica de conjunto com recurso META (*META-feature Dynamic Ensemble Selection - META-DES*) e o K-vizinhos mais próximos com rejeição otimizada e seleção dinâmica (*K-nearest neighbors with Optimized Rejection and dynamic Selection -* *KNORA-U*), utilizados para a classificação.
-
+Futuramente, uma terceira estratégia irá ser implementada, onde mais uma vez as CNN’s irão ser utilizadas apenas como extratoras de atributos, que servirão como entrada para algoritmos de seleção dinâmica, como o Seleção dinâmica de conjunto com recurso META (*META-feature Dynamic Ensemble Selection - META-DES*) e o K-vizinhos mais próximos com rejeição otimizada e seleção dinâmica (*K-nearest neighbors with Optimized Rejection and dynamic Selection -* *KNORA-U*), utilizados para a classificação. Além disso, alguns conjuntos de classes podem ser agrupados, visando reduzir o número total de classes e aumentando o número de imagens por classe agrupada.
 # Materiais e Métodos
 
 Esta seção trata do dataset utilizado e das metodologias abordadas para a exploração do HAM10000.
