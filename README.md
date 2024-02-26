@@ -20,9 +20,11 @@ Os códigos explicitados nas subseções seguintes podem ser encontrados no [Git
 
 O dataset HAM10000 contém 10015 imagens em alta resolução de lesões pigmentadas na pele. Estas imagens representam um conjunto amplo de condições dermatológicas que podem ser utilizadas para treinamento de algoritmos de aprendizagem profunda e outros métodos de aprendizado de máquina.
 
-O dataset possui sete classes diferentes de lesões pigmentadas. Dentre as lesões estão os carcinomas basocelulares, os melanomas, as queratoses actínicas, lesões benignas do tipo queratose, dermatofibromas, nevos melanocíticos e lesões vasculares. As imagens deste banco de dados são de vários territórios da Europa, gerando uma variabilidade no dataset, o que representa cenários mais realistas. 
+O dataset possui sete classes diferentes de lesões pigmentadas. Dentre as lesões estão as queratoses actínicas com 327 imagens os carcinomas basocelulares com 514 imagens, lesões benignas do tipo queratose com 1099 imagens, dermatofibromas com 115 imagens, os melanomas com 1113 imagens, os nevos melanocíticos com 6705 imagens e lesões vasculares com 114 imagens. As imagens deste banco de dados são de vários territórios da Europa, gerando uma variabilidade no dataset, o que representa cenários mais realistas. 
 
-Apesar deste dataset ser comumente utilizado para classificação entre diferentes diferentes classes em conjunto com a utilização de *CNN’s* para a predição das classes, outras metodologias podem ser utilizadas, como serão demonstradas em seções seguintes desta seção.
+Cada uma destas classes foi representada por um número do zero ao seis, sendo a classe 0 lesões benignas do tipo queratose (*Benign Keratosis-like - bkl*), a classe 1 nevos melanocíticos (*melanocytic nevi - nv*), a classe 2 queratoses actínicas (*Actinic keratoses - akiec*), a classe 3 carcinomas basocelulares (*basal cell carcinoma - bcc*), a classe 4 dermatofibromas - df, a classe 5 melanomas - mel e a classe 6 lesões vasculares - vasc.
+
+Apesar deste dataset ser comumente utilizado para classificação entre diferentes classes em conjunto com a utilização de *CNN’s* para a predição das classes, outras metodologias podem ser utilizadas, como serão demonstradas nas subseções seguintes.
 
 ## Redes Neurais como Classificadores
 
