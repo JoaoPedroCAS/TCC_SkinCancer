@@ -433,6 +433,7 @@ Os resultados gerados pela CNN estão apresentados abaixo.
            6    |   0.47    |  0.56     |
 
 Acurácia média: 0.74
+Desvio padrão: 0.01757580724
 ```
 ![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/09c6c4d7-4bc7-4720-ba68-e3910e31bdbe)
 
