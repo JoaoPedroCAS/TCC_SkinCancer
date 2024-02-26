@@ -521,6 +521,7 @@ Acurácia média: 0.75
 
 ### Comparativos
 A fim de comparar o desempenho das diferentes metodologias, este ultimo gráfico traz as médias de precisão, F1-Score e acurácia obtidos por cada método.
+
 ![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/f369113c-3786-4b5e-a0b1-96c0805467ec)
 
 
