@@ -433,6 +433,8 @@ Os resultados gerados pela CNN estão apresentados abaixo.
 
 Acurácia média: 0.74
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/09c6c4d7-4bc7-4720-ba68-e3910e31bdbe)
+
 
 ### CNN como extratora e métodos de aprendizagem de máquina como classificadores
 
@@ -453,6 +455,7 @@ Classes| Precisão | F1-Score |
 
 Acurácia média: 0.75
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/b077ab84-60cd-4bc0-a925-3ce5b9797ccb)
 
 ```
 Perceptron - Inception:
@@ -467,6 +470,7 @@ Classes| Precisão | F1-Score |
 
 Acurácia média: 0.75
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/f76fee89-1030-4369-ac69-45c97b49f8b6)
 
 ```
 Linear SVM - Inception:
@@ -481,6 +485,7 @@ Classes| Precisão | F1-Score |
 
 Acurácia média: 0.75
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/7c1f7512-4880-4a69-8802-ef0100a5d613)
 
 ```
 KNN - Inception:
@@ -495,6 +500,7 @@ Classes| Precisão | F1-Score |
 
 Acurácia média: 0.70
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/a25ea589-7c8e-43d0-9f1b-ae0a5b4a6113)
 
 ```
 LR - Inception:
@@ -509,4 +515,10 @@ Classes| Precisão | F1-Score |
 
 Acurácia média: 0.75
 ```
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/98c7694b-27fe-4283-9f94-2db59d578a86)
+
+### Comparativos
+A fim de comparar o desempenho das diferentes metodologias, este ultimo gráfico traz as médias de precisão, F1-Score e acurácia obtidos por cada método.
+![image](https://github.com/JoaoPedroCAS/TCC_SkinCancer/assets/70914320/70fad429-0ba1-4a6a-a0d8-8c6a7909e977)
+
 
